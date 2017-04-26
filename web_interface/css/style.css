@@ -1,0 +1,241 @@
+html,body{
+    height:100%; /* needed for container min-height */
+    background-color: #dddddd;
+
+
+}
+
+.spinner {
+  width: 100px;
+}
+.spinner input {
+  text-align: right;
+}
+.input-group-btn-vertical {
+  position: relative;
+  white-space: nowrap;
+  width: 1%;
+  vertical-align: middle;
+  display: table-cell;
+}
+.input-group-btn-vertical > .btn {
+  display: block;
+  float: none;
+  width: 100%;
+  max-width: 100%;
+  padding: 8px;
+  margin-left: -1px;
+  position: relative;
+  border-radius: 0;
+}
+.input-group-btn-vertical > .btn:first-child {
+  border-top-right-radius: 4px;
+}
+.input-group-btn-vertical > .btn:last-child {
+  margin-top: -2px;
+  border-bottom-right-radius: 4px;
+}
+.input-group-btn-vertical i{
+  position: absolute;
+  top: 0;
+  left: 4px;
+}
+
+
+.search_button{
+    margin-top: 20px;
+    width:100px;    
+}.search_button_top{
+    width:100px;    
+}
+.main_container{
+    margin-top: 100px;
+}/*
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+}
+ h1 {
+    margin:0px;
+    padding: 0 !important;
+}
+h1:first-child { margin-top: 0; }
+html {
+   margin: 0; 
+   padding: 0;
+}*/
+.page_crawl_counter{
+  width: 550px;
+}
+.page_crawl_counter_input{
+  width: 150px;
+}
+.keyword_bar{
+  width: 400px;
+}
+.banner {
+    background-attachment: scroll,						fixed;
+    background-color: #494d53;
+    background-image: url("../images/overlay.png"), url("../images/Rotunda.jpg");
+    background-position: top left;		
+    background-repeat: repeat,						no-repeat;
+    background-size: auto,						cover;
+    
+    position: relative;
+    color: #e47100;
+    height: 1000px;
+
+    font-family: 'Comfortaa', cursive;
+
+    /*
+    font-family: 'Josefin Sans', sans-serif;*/
+
+
+ /*   
+open Sans Condensed', sans-serif
+    font-family: 'Comfortaa', cursive;
+
+    */
+/*    padding: 16em 0;
+    text-align: center;*/
+}
+.banner a{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.banner a:hover, .banner a:focus{
+  color: #ff7f00;
+  text-decoration: none;
+}
+.table_background{    
+    position: relative;
+    padding:30px;
+    background-color: #dddddd;
+    height:auto !important; /* real browsers */
+    height:100%; /* IE6: treaded as min-height*/
+    min-height:100%; /* real browsers */
+
+
+
+    /*
+    color: #FFFFFF;*/
+}
+.search_results_number{
+    width: 25px;
+    min-width: 25px;
+    padding-right: 10px;
+    vertical-align: top;
+    padding-top: 10px;
+}
+.search_results_table{
+    margin-bottom: 20px;
+}
+.search_results_title{
+
+  color: #005a84
+}
+
+/*.table_color td{    
+    border: 1px solid #666666 !important;
+}*/
+/*
+.rotunda_background:after{
+    content : "";
+    display: block;
+    position: absolute;
+    background-position: top left;    
+    background-repeat: repeat,            no-repeat;
+    background-size: auto,            cover;
+    top: 0;
+    left: 0;
+    background-image: url("../images/overlay.png"), url("../images/Rotunda.jpg");
+    width: 100%;
+    height: 100%;
+    opacity : 0.4;
+    z-index: -1;
+
+}*/
+
+/*#banner:after {
+    -moz-transition: opacity 2s ease-in-out;
+    -webkit-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+    -ms-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
+    background: #3d4045;
+    content: '';
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}*/
+.banner h1, .banner h2, .banner h3, .banner h4, .banner h5, .banner h6, .banner a {
+    color: #e47100;
+}
+.main_header{
+  padding-top:10px;
+  padding-left:10px;
+}
+.search_bar_top{
+    font-family: 'Comfortaa', cursive;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+.search_bar_top_header{
+    background-color: #333;
+}
+.search_bar_top_button{
+  margin-top: 5px;
+}
+.blue_label{
+  color: #337ab7;
+}
+.banner_label a{
+  color: #ff7f00;
+  font-weight: bold;
+  font-size: 130%;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+.banner_label a:hover, .banner_label a:focus{
+  color: #ff7f00;
+  text-decoration: none;
+}
+.search_results_data{
+  min-width: 150px;
+  vertical-align: top;
+}
+.header h1{
+  margin-top: 0px;
+}
+#loader{
+    width:100%;
+    height:100%;
+    position:fixed;
+    z-index:9999;
+    background:url("https://www.creditmutuel.fr/cmne/fr/banques/webservices/nswr/images/loading.gif") no-repeat center center rgba(0,0,0,0.25)
+}
+/*
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}*/
