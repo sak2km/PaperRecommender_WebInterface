@@ -1,15 +1,17 @@
 <?php
-  // session_start();
+  session_destroy();
+
+  session_start();
 
   
-  // if(!isset($_SESSION['clicked_doc'])){
-  //   echo "session was not set";
-  //   $_SESSION['clicked_doc'] = "";
-  // //  echo "session set to ".$_SESSION['clicked_doc'];
-  // }
-  // else{
-  // echo "session set to ".$_SESSION['clicked_doc'];
-//  }
+  if(!isset($_SESSION['clicked_doc'])){
+  //  echo "session was not set";
+    $_SESSION['clicked_doc'] = "";
+  //  echo "session set to ".$_SESSION['clicked_doc'];
+  }
+  else{
+ //   echo "session set to: ".$_SESSION['clicked_doc'];
+   }
 ?>
 
 <!DOCTYPE html>
